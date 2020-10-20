@@ -1,0 +1,79 @@
+
+
+ /***************media quarice css code start***************/
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	
+  
+.header-section .navbar-light .navbar-nav .nav-link{
+	color: (0,0,0,);
+	font-size: 14px;
+	font-weight: 900;
+}
+.banner .text-inner h1{
+font-size: 25px;
+font-weight: 700;
+}
+.banner .text-inner h5{
+font-size: 18px;
+
+}
+.banner .text-inner p {
+    font-size: 10px;
+    line-height: 18px;
+    margin-bottom: 4px;
+}
+
+}
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+ 
+  .banner .text-inner h1{
+font-size: 28px;
+font-weight: 700;}
+}
+
+
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+ @media (min-width: 768px) and (max-width: 1024px) {
+  
+ .banner .text-inner h1{
+font-size: 95px;
+font-weight: 700;
+}
+.banner .text-inner h5 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.banner .text-inner p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+}
