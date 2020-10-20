@@ -1,0 +1,185 @@
+*{
+	padding:  0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+
+/************************************
+		main css xtart
+****************************************/
+
+/****************header section css start*************/
+.header-section{
+	width: 100%;
+	padding: 20px 0px;
+	background: #fcdb00;
+}
+.header-section .bg-light {
+    background-color: transparent !important;
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+	color: (0,0,0,);
+	font-size: 20px;
+	font-weight: 900;
+}
+.header-section .navbar-nav .nav-link{
+	margin: 0px 0px 0px 35px;
+}
+.banner{
+	width: 100%;
+	padding: 60px 0px;
+}
+.banner .text-inner{
+	width: 100%;
+	padding: 20px 0px;
+}
+.banner .text-inner h1{
+font-size: 33px;
+line-height: 46px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+.banner .text-inner h5{
+font-size: 22px;
+line-height: 36px;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.banner .text-inner p{
+font-size: 14px;
+line-height: 26px;
+margin-bottom: 20px;
+}
+.banner .text-inner .inner-img{
+	margin-top: 30px;
+}
+
+  
+/******************features css start**********/
+.features{
+	width: 100%;
+	padding: 80px 0px;
+
+}
+.features .title{
+	width: 100%;
+	text-align: center;
+}
+.features .title h1{
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.features .title p{
+	font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 60px;
+}
+.features .feature-inner{
+	width: 100%;
+}
+.features .feature-inner .media{
+	padding-right: 30px 0px 0px;
+}
+.features .feature-inner .media .fa{
+	font-size: 50px;
+	color: #000;
+}
+.features .feature-inner .media-body{
+	padding: 0px 10px;
+}
+.features .feature-inner .media-body h5 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30px;
+   
+}
+.features .feature-inner .media-body p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #898989;
+}
+
+/*footer-section css start*/
+.footer-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #010101;
+}
+
+
+.footer-section .title{
+	width: 100%;
+	padding-bottom: 30px;
+	text-align: center;
+
+}
+.footer-section .title h1{
+	font-size: 42px;
+	font-weight: 500;
+	color: #fcdb00;
+	
+}
+.footer-section .title p{
+	font-size: 16px;
+	line-height: 26px;
+	color: #898989;
+}
+.footer-section .form-inline{
+	width: 100%;
+	padding: 0px 56px;
+}
+.footer-section .form-inline .form-group{
+	width: 80%;
+}
+.footer-section .form-inline .form-group .form-control{
+	width: 100% !important;
+	padding: 10px;
+	height: auto !important;
+}
+.footer-section .form-inline .btn-primary{
+	padding: 10px 17px;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: #fcdb00;
+	border: 2px solid #fcdb00;
+	color: #000;
+}
+.footer-section .form-inline .btn-primary:hover, .footer-section .form-inline .btn-primary:focus{
+	background: transparent;
+	border: 2px solid #fcdb00;
+	color: #fcdb00;
+}
+.footer-section .sosail-icons{
+	width: 100%;
+	text-align: center;
+}
+.footer-section .sosail-icons .fa {
+    margin-top: 30px;
+    padding: 2px;
+    font-size: 30px;
+    background: #fcdb00;
+    color: #000;
+    margin-left: 5px;
+    width: 4%;
+    height: 4%;
+    border-radius: 5px;
+}
+
+
+
+
+
